@@ -66,6 +66,7 @@ const App = () => {
           className="text"
           onChange={e => onChangeHandler(e)}
           value={currentTodo}
+          placeholder="Type here..."
         />
         <button type="submit" className="button shadowDepth4">
           <h3>Add</h3>
