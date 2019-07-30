@@ -1,0 +1,151 @@
+.shadowDepth4 {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.shadowDepth5 {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.shadowDepth5 {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5), 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+html {
+  background: #fff;
+  background-color: #434343;
+  min-height: 100vh;
+}
+
+body {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.card {
+  height: 3rem;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 0 0 10px 10px;
+  text-align: center;
+  line-height: 2.6rem;
+  margin-bottom: 20px;
+}
+
+.card h1 {
+  margin: 0;
+  padding: 0;
+  color: yellowgreen;
+}
+
+.box2 {
+  /* display: block; */
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+form input,
+form button {
+  padding: 4px;
+  box-sizing: border-box;
+  display: block;
+  margin: auto;
+}
+
+form input {
+  border-radius: 10px;
+  line-height: 2rem;
+  color: #434343;
+  border: none;
+  width: 80%;
+}
+
+form button {
+  border-radius: 10px;
+  width: 70%;
+  height: 2rem;
+  border: none;
+  margin: 20px auto auto auto;
+  background: steelblue;
+  color: white;
+  font-weight: 900;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form button:hover {
+  background: yellowgreen;
+  color: #434343;
+  cursor: pointer;
+}
+
+form .button h3 {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0;
+  line-height: 1rem;
+}
+
+.items {
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  min-height: 400px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.item {
+  background-color: yellowgreen;
+  border-radius: 1rem;
+  margin: 10px auto;
+  color: white;
+  width: 75%;
+}
+
+.item:nth-child(2n + 1) {
+  background: steelblue;
+}
+.item h3 {
+  margin: 0;
+  padding-top: 10px;
+  margin: auto;
+  text-transform: capitalize;
+}
+
+.item:hover {
+  background-color: orangered;
+  cursor: pointer;
+  border-radius: 1.5rem;
+}
+
+.date-time {
+  text-align: right;
+  padding: 2px 50px;
+  margin: 0;
+  font-size: 0.7rem;
+}
+
+@media (max-width: 800px) {
+  body {
+    width: 600px;
+  }
+  .item {
+    width: 80%;
+  }
+}
+
+@media (max-width: 610px) {
+  body {
+    width: 400px;
+  }
+  .item {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    width: 300px;
+  }
+}
